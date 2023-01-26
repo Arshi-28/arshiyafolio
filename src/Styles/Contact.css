@@ -1,0 +1,38 @@
+.contactme
+{
+    color: white;
+    display: block;
+    margin-top: 40px;
+    
+}
+.heading
+    {
+        background-color: rgb(68, 66, 66);
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+.contactitems
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactitems a{
+   display: inline-flex;
+   color: blue;
+}
+.contactitems a img
+{
+    width: 30px;
+}
+@media screen and (max-width:769px) {
+    .contactitems
+    {
+        display: block;
+    }
+    .heading
+    {
+
+        font-size: 1.8vh;
+    }
+}

@@ -1,0 +1,66 @@
+.secondbox
+{
+  color: white;
+  display:block;
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.content
+{
+    margin-top: 30px;
+}
+.content span
+{
+    color: #2342ef;
+    font-weight: bolder;
+}
+.email
+{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.emailMe
+{
+    padding: 8px;
+    border-radius: 50px;
+    width: 100%;
+    color: #2342ef;
+    border: 2px solid #2342ef;
+    background-color: black;
+    margin-top: 10px;
+}
+.emailMe:hover
+{
+    border: 2px solid blue;
+}
+.submitBtn
+{
+    margin-top:18px;
+    margin-left: -22px;
+    background-color: transparent;
+}
+
+.secondbox img
+{
+    margin-top: 60px;
+    width: 250px;
+    border-radius: 120px;
+}
+
+@media  screen and (max-width:769px) {
+    .secondbox
+    {
+        display: block;
+        width: 100%;
+    }
+    .content
+    {
+    margin: 8%;
+    }
+    .email
+    {
+        width: 90%;
+    }
+}

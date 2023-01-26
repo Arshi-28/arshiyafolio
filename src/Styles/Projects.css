@@ -1,0 +1,53 @@
+.projects
+{
+    margin: auto;
+    color: white;
+}
+
+.pheading
+{
+    background-color: rgb(68, 66, 66);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 40px;
+
+}
+.project_items
+{
+    margin-top: 20px;
+    display: flex;
+}
+.pcard
+{
+    box-shadow: 0px 0px 15px 2px #055ffb;
+    margin: auto;
+    width: 200px;
+    height: 140px;
+    margin-top: 15px;
+    color: white;
+    border-radius: 30px;
+}
+.pcard p{
+    padding: 10px;
+    border-radius: 30px;
+}
+.pcard img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s ease-in-out;
+}
+.pcard img:hover
+{
+    transform: rotate(360deg);
+}
+@media screen and (max-width:769px)
+{
+    .project_items
+    {
+     display: block;   
+    }
+    .pheading
+    {
+        font-size: 1.8vh;
+    }
+}
